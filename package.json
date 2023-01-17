@@ -1,5 +1,27 @@
 {
+  "name": "hill-view-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyeronical/hill-view-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iyeronical/hill-view-menu/issues"
+  },
+  "homepage": "https://github.com/iyeronical/hill-view-menu#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
   }
 }

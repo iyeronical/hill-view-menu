@@ -4,7 +4,7 @@ function MenuItems({item}) {
     const [portion, setPortion] = useState('half');
     const [quantity, setQuantity] = useState(1);
     return (
-    <div>
+    <div className='m-5 shadow-lg p-3 mb-5 bg-white rounded'>
         <h3>{item.name}</h3>
         <img src={item.image} className="img-fluid" alt="" />
 
@@ -27,12 +27,12 @@ function MenuItems({item}) {
             </div>
         </div>
         <div className="flex-container">
-            <div className="">
-                <p>Price : {item.price[0][portion] * quantity}</p>
+            <div className="m-1 w-100">
+                <p className='mt-1'>Price : {item.price[0][portion] * quantity}</p>
                 
             </div>
-            <div className="">
-
+            <div className="m-1 w-100">
+                    <button className='btn btn- shadow-sm'>Add to Cart</button>
             </div>
         </div>
     </div>
